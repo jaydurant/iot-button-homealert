@@ -1,11 +1,11 @@
-##AWS IOT BUTTON
+## AWS IOT BUTTON
 If you have an AWS IOT Button you can use this project to send an SMS to anyone who is subscribed.
 
-###Summary
+### Summary
 Initially, I received a AWS IOT Button at a AWS Conference in San Francisco. I decided to utilize the IOT Button in order to notify
 either my partner or myself when the other had arrived home. 
 
-###Tech
+### Tech
 
 | Technology | Description |
 | --- | --- |
@@ -15,7 +15,7 @@ either my partner or myself when the other had arrived home.
 | boto3 | AWS SDK |
 | pytz | timezone library |
 
-###Build & Deploy
+### Build & Deploy
 In order to build and deploy the lambda function you will need to have the AWS cli enabled.
 
 1. enable [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
@@ -32,7 +32,7 @@ In order to build and deploy the lambda function you will need to have the AWS c
     - ```aws lambda  update-function-code --zip-file fileb://./upload.zip  --function home-alerts-iot```
 8. congrats your are ready to test
 
-###Source Code Structure
+### Source Code Structure
 
-###License
+### License
 MIT © [Jason Durant]()
